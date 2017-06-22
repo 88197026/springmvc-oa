@@ -1,7 +1,7 @@
 package com.oa.common.utils.security;
 
 import com.oa.common.utils.base.Const;
-import com.oa.entity.system.Account;
+import com.oa.entity.system.account.Account;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;

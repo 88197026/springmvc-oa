@@ -28,6 +28,7 @@
                 /static/** = anon
                 /favicon.ico = anon
                 /verifyCode/** = anon
+                /system_login  = anon
                 /upload/** = anon
                 /** = authc
             </value>

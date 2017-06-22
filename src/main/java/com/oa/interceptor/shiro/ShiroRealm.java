@@ -1,9 +1,9 @@
 package com.oa.interceptor.shiro;
 
 import com.oa.common.utils.base.Const;
-import com.oa.entity.system.Account;
 import com.oa.common.utils.security.CipherUtil;
-import com.oa.service.AccountService;
+import com.oa.entity.system.account.Account;
+import com.oa.service.system.account.AccountService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

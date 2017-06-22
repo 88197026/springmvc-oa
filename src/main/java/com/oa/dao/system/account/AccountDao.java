@@ -1,8 +1,13 @@
 package com.oa.dao.system.account;
 
+import com.oa.common.utils.tree.entity.ZNodes;
 import com.oa.dao.base.BaseDao;
 import com.oa.dao.base.JYBatis;
-import com.oa.entity.system.Account;
+import com.oa.entity.system.account.Account;
+import com.oa.entity.system.org.Position;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * 用户数据层
@@ -16,5 +21,51 @@ public interface AccountDao extends BaseDao<Account> {
      * @return
      */
     public Account findFormatByLoginName(String loginName);
+    /**
+     * 根据登录帐号ID,正常只有一条数据
+     * @param accountId
+     * @return
+     */
+    public Account findAccountById(String accountId);
+    /**
+     * 设置个人化皮肤
+     * @param o(需要ID和皮肤属性)
+     */
+    public void setSetting(Account o);
+    /**
+     * 获取个人资料
+     * @param accountId 用户Id
+     * @return
+     */
+    public Account getPerData(String accountId);
+    /**
+     * 设置个人资料
+     * @param o(需要ID)
+     */
+    public void setPerData(Account o);
+    /**
+     * 设置头像
+     * @param account
+     * @return
+     */
+    public void setHeadpic(Account account);
+    /**
+     * 获得角色树
+     * @return
+     */
+    public List<ZNodes> getRoles();
+    /**
+     * 通过登录名查找用户数量
+     * @param loginName 用户名
+     * @return
+     */
+    public int findCountByLoginName(@Param("loginName") String loginName);
+    /**
+     * 密码重置
+     * @param account
+     * @return
+     */
+    public void resetPwd(Account account);
 
+    public List<Position> getPoss(String accountId);
 }
