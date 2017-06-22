@@ -1,0 +1,105 @@
+ {
+  "loanPriceInfo": {
+    "loanPriceTotal": 11218.92,
+    "loanPriceLeave": 6208,
+    "loanPriceUesed": 2238.2,
+    "loanPriceNum": 2
+  },
+  "loanRecordInfo": [
+    {
+      "time": "2016.08.20",
+      "number": "203634374873847xj",
+      "produce": "订单贷款",
+      "price": "+1,900",
+      "status": "使用中"
+    },
+    {
+    "time": "2016.08.19",
+    "number": "20363437487384789xj",
+    "produce": "订单贷款",
+    "price": "+6,900",
+    "status": "使用中"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "使用中"
+    }
+  ],
+  "loanBackRecordInfo": [
+    {
+      "time": "2016.08.20",
+      "number": "203634374873847xj",
+      "produce": "订单贷款",
+      "price": "+1,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    }
+  ],
+  "loanAllRecordDetailInfo": [
+    {
+      "time": "2016.08.20",
+      "number": "203634374873847xj",
+      "produce": "订单贷款",
+      "price": "+1,900",
+      "status": "使用中"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "使用中"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "还款"
+    },
+    {
+      "time": "2016.08.19",
+      "number": "20363437487384789xj",
+      "produce": "订单贷款",
+      "price": "+6,900",
+      "status": "使用中"
+    }
+  ]
+}

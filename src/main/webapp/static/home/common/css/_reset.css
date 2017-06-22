@@ -1,0 +1,381 @@
+/*// CSS reset*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+ul, ol, li {
+  list-style: none;
+}
+em, i {
+  font-style: normal;
+}
+strong, b {
+  font-weight: bold;
+}
+img {
+  border: none;
+}
+input, img {
+  vertical-align: middle;
+}
+a, ins , a:hover {
+  text-decoration: none;
+}
+*, a:focus {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: 0;
+}
+textarea:focus {
+  outline: 0;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.mb5{
+  margin-bottom: 5px;
+}
+.inline-block{
+  display: inline-block;
+
+}
+.mt10{
+  margin-top: 10px;
+
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt16{
+  margin-top: 15px;
+
+}
+
+.bt1{
+  border-top: 1px solid #eee;
+}
+
+.bb1{
+  border-bottom: 1px solid #eee;
+}
+
+.bd1{
+  border: 1px dashed #eee;
+}
+
+.bbd1{
+  border-bottom: 1px dashed #eee;
+}
+
+.mt5{
+
+  margin-top: 5px;
+
+
+}
+.m0{
+  margin: 0px !important;
+}
+.mr20{
+  margin-right: 20px;
+}
+.mr5{
+  margin-right: 5px;
+}
+.ml5{
+  margin-left: 5px;
+}
+.co_g{
+  color: #059b05;
+}
+.co_r{
+  color: red;
+}
+.co_b{
+  color: #49b7fb;
+}
+
+.co_33{
+  color: #333;
+}
+
+.co_66{
+  color: #666;
+}
+.co_99{
+  color: #999;
+}
+.co_gr{
+  color: #dcdcdc;
+
+
+}
+.fz10{
+  font-size: 10px;
+}
+.scale06{
+  -webkit-transform:scale(0.6);
+}
+
+
+.hide{
+  display: none;
+}
+.p-r{
+  position: relative;
+
+}
+.mt15{
+  margin-bottom: 15px;
+
+}
+.mb10{
+  margin-bottom: 10px;
+
+}
+.mb15{
+  margin-bottom: 15px;
+
+}
+.cp{
+  cursor: pointer;
+}
+
+.t-c{
+  text-align: center;
+}
+
+.t-r{
+  text-align: right;
+}
+
+.flex1{
+  flex:1;
+}
+.zmax{
+  z-index: 99999 !important;
+
+}
+.w100{
+  width: 100px;
+}
+.w180{
+  width: 180px !important;
+}
+.w160{
+  width: 160px !important;
+}
+.w200{
+  width: 200px;
+}
+.w400{
+  width: 400px;
+}
+
+
+.w100p{
+  width: 100% !important;
+
+}
+
+.mr5{
+  margin-right: 5px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt15{
+  margin-top: 15px !important;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mb5{
+  margin-bottom: 5px;
+}
+.mr20{
+  margin-right: 20px;
+}
+
+.mr30{
+  margin-right: 30px;
+}
+.mr50{
+  margin-right: 50px;
+}
+.mr10{
+  margin-right: 10px !important;
+}
+.mr15{
+  margin-right: 15px;
+
+}
+.ml15{
+  margin-left: 15px;
+
+}
+.ml30{
+  margin-left: 30px;
+}
+.fz20{
+  font-size: 20px;
+}
+.fz22{
+  font-size: 22px;
+}
+.fz24{
+  font-size: 24px;
+}
+.fz18{
+  font-size: 18px;
+}
+.fz16{
+  font-size: 16px;
+}
+.fz14{
+  font-size: 14px;
+}
+.fz12{
+  font-size: 12px;
+}
+.fz28{
+  font-size: 28px;
+}
+.fz26{
+  font-size: 26px;
+}
+.fz30{
+  font-size: 30px;
+}
+.fz32{
+  font-size: 32px;
+}
+.fz36{
+  font-size: 36px;
+}
+.bb1{
+  border-bottom: 1px solid #e3e1e1;/*no*/
+}
+.bs1{
+  border-bottom: 1px dashed #e3e1e1;/*no*/
+}
+.t_r{
+  text-align: right;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.c-t{
+  text-align: center;
+}
+.w100{
+  width: 100px !important;
+}
+.w250{
+  width: 250px;
+}
+.w150{
+  width: 150px;
+}
+.w300{
+  width: 300px;
+}
+
+.w120{
+  width: 120px;
+}
+
+.inblock{
+  display: inline-block !important;
+
+}
+
+.lh34{
+  line-height: 34px;
+  height: 34px;
+}
+
+.fx{
+  clear: both;
+
+}
+
+
+
+.list-title{
+  background: #e5e5e5;
+  color: #666;
+  font-size: 14px;
+  height: 50px;
+  line-height:50px;
+  padding: 0px 20px;
+}
+
+.list-title li{
+  display: inline-block;
+}
+
+.list-body{
+  font-size: 14px;
+  height: 50px;
+  line-height:50px;
+  padding: 0px 20px;
+  li{
+    display: inline-block;
+  }
+}
+
+.list-body{
+  font-size: 14px;
+  height: 50px;
+  line-height:50px;
+  padding: 0px 20px;
+
+}
+
+.list-body li{
+  display: inline-block;
+}
+
+.list-body:nth-child(even){
+  background-color: #fbfbfc;
+
+}
+.list-body:nth-child(odd){
+  background-color: #fff;
+
+}
+
+.a-color-w{
+  color:#fff;
+}
+.a-color-w:link{
+  color:#fff;
+}
+.a-color-w:visited{
+  color:#fff;
+}

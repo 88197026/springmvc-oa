@@ -1,0 +1,63 @@
+{
+  "baseLoanInfo": {
+    "usedPricePercentage": "41.67%",
+    "backPrice": 2088,
+    "usedPrice": 4798
+  },
+  "loanInfo": {
+    "loanCompany": "银行股份有H",
+    "phone": 9707,
+    "startTime":"2016年03月25日",
+    "endTime":"2016年12月25日",
+    "dayRate": "0.041%",
+    "loanNumber": "213232112322jsjxj",
+    "contractNumber": "21323454589jxj",
+    "loanPrice": 9713.22
+  },
+
+  "usedLoanInfo": {
+    "loanPrice": 9713.22,
+    "delayDay": "3",
+    "backCapital": 2323,
+    "backInterest": 445,
+    "backBadInterest": 45,
+    "haveBackCapital": 2323,
+    "haveBackInterest": 445,
+    "haveBackBadInterest": 45
+  },
+  "otherRecordList":[],
+  "backRecordList": [
+    {
+      "time": "2016.08.20",
+      "number": "203634374873847xj1",
+      "price": "1,900",
+      "interest":"232",
+      "capital":"232",
+      "procedures":"12"
+    },
+    {
+      "time": "2016.08.20",
+      "number": "20363474873847xj1",
+      "price": "1,900",
+      "interest":"232",
+      "capital":"232",
+      "procedures":"12"
+    },
+    {
+      "time": "2016.08.20",
+      "number": "20363473847xj1",
+      "price": "1,900",
+      "interest":"232",
+      "capital":"232",
+      "procedures":"12"
+    },
+    {
+      "time": "2016.08.20",
+      "number": "2036343847xj1",
+      "price": "1,900",
+      "interest":"232",
+      "capital":"232",
+      "procedures":"12"
+    }
+  ]
+}
